@@ -1,0 +1,172 @@
+body {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333232;
+  margin:0;
+  font-family: 'Noto Sans', sans-serif;
+  color: #143d73;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  }
+  p {
+    margin: 0px;
+  }
+
+  h2 {
+    margin: 0px;
+  }
+  h1 {
+    margin: 0px;
+  }
+  h3 {
+    margin: 1%;
+  }
+  ol {
+    padding: 0px;
+  }
+    /*Nav Bar styling*/
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #3D3D3D;
+  border-bottom: solid #2162e3;
+  height: 50px;
+ }
+ .nav-items {
+  display: flex;
+ }
+    
+.nav-bar a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 10px;
+  font-weight: 800;
+}
+  
+.nav-bar a:last-child {
+  margin-right: 0px;
+}
+    
+.nav-bar a div {
+  padding: 15px 20px; 
+}
+  
+.nav-bar a div:hover {
+  border-radius: 0px;
+  padding: 12.5px 20px;
+  text-decoration: underline;
+  text-decoration-color: #00B0FF;
+  text-decoration-thickness: 3px;
+}
+    
+nav section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+}
+    
+nav section a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+    
+nav section a:last-child {
+  margin-right: 0px;
+    
+}
+    
+nav section a div {
+  padding: 15px 40px;
+  background-color: #f25c05;
+}
+nav section a div:hover {
+  border-radius: 0px;
+  background-color: #f25c05;
+  border-bottom: 5px solid #ffffff; 
+}
+    
+.nav-logo {
+  position: absolute;
+  left: 0%;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 0%;
+  padding-left: 10px;
+  }
+
+.nav-discord {
+  position: absolute;
+  right: 0%;
+  padding-right: 10px;
+}
+
+/*World Page*/
+.WRD {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+.WRD-Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.WRD-Text p {
+  margin: 1% 0%;
+}
+/*Footer Stuff*/
+.Footer {
+  height: 40px;
+  background-color: #3D3D3D;
+  padding: 10px;
+  color: white;
+  border-top: solid #08a9fa;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+.FT-IMG-1 {
+  display: flex;
+  position: absolute;
+  left: 0%;
+  align-items: center;
+  justify-content: center;
+}
+.Footer a {
+  text-decoration: none;
+}
+.FT-Links{
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+.FT-Links div {
+  color: white;
+  flex-direction: column;
+}
+.FT-G-Link1 {
+  color: white;
+
+}
+.FT-G-Link2 {
+  margin-left: 50px;
+  color: white;
+}
